@@ -1,5 +1,5 @@
 {
-  "name": "node-debugger-lab",
+  "name": "debugger-lab",
   "version": "1.0.0",
   "description": "Debug a Script Lab",
   "main": "index.js",
@@ -19,5 +19,11 @@
   "devDependencies": {
     "mocha": "2.4.5",
     "chai": "3.5.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mocha-multi": "^1.1.3"
   }
 }
